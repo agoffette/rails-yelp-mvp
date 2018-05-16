@@ -1,0 +1,10 @@
+<h1><i class="fas fa-arrow-down"></i>&ensp;&ensp;<%= @restaurants.length %> Restaurants Available</h1>
+
+<ul class="all-restaurants">
+<% @restaurants.each do |restaurant| %>
+  <li><h3><i class="fas fa-map-marker"></i>&ensp;<%= restaurant.name %></h3>
+  <p><strong><%= restaurant.category %></strong> - Phone: <%= restaurant.phone_number %></p>
+  <p><%= restaurant.address %></p><br>
+  </li>
+<% end %>
+</ul>

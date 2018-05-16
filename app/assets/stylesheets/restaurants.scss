@@ -1,0 +1,21 @@
+.all-restaurants {
+  padding-top: 7px;
+  li {
+    list-style-type: none;
+
+  h3 {
+    &:hover {
+    color: #FF3562;
+    }
+
+  }
+}
+}
+
+h1 {
+  padding: 15px 15px;
+  border-bottom: 8px solid #FF3562;
+  width: 35%;
+  color: #FF3562;
+  }
+
